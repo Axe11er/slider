@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": [
+            "off"
+        ],
+        "linebreak-style": [
+            "off"
+        ],
+        "quotes": [
+            "off"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+    "no-alert": "off",
+    "no-array-constructor": "off",
+    "no-bitwise": "off",
+    "no-caller": "off",
+    "no-case-declarations": "error",
+    "no-catch-shadow": "off",
+    "no-class-assign": "error",
+    "no-cond-assign": "error",
+    "no-confusing-arrow": "off",
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "no-unsafe-finally": "off"
+    }
+}
